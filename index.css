@@ -1,0 +1,231 @@
+
+/* universal selector for margin and padding */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* background image applied to header */
+header{
+	background: url("bg.gif") ;
+	height: 50px;
+	background-size: cover; 
+}
+
+/* css sprite navbar */
+#navlist{
+	position: relative;
+	float: right;
+	padding-right: 70%;
+}
+
+#navlist li{
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+
+}
+
+#navlist li a{
+	height: 50px;
+	display:block;
+}
+
+#menu-1{
+	
+	width: 141px;
+	top: 0px;
+	left: 0;
+	background: url("nav.jpg") 0 0 ;
+}
+
+#menu-2{
+	width: 141px;
+	top: 0;
+	left: 141px;
+	background: url("nav.jpg") -143px 0px;
+}
+
+#menu-3{
+	width: 143px;
+	top: 0;
+	left: 282px;
+	background: url("nav.jpg") -286px 0px;
+}
+
+#menu-4{
+	width: 147px;
+	top: 0;
+	left: 425px;
+	background: url("nav.jpg") -434px 0px;
+}
+
+/*hover over image */
+#menu-1:hover{
+	background: url("nav.jpg") -0px -150px;
+}
+
+#menu-2:hover{
+	background: url("nav.jpg") -143px -150px;
+}
+
+#menu-3:hover{
+	background: url("nav.jpg") -286px -150px;
+}
+
+#menu-4:hover{
+	background: url("nav.jpg") -434px -150px;
+}
+
+/* hr below css sprite image */
+#navhr{
+	margin-top: 1px;
+	border: 2px solid #d2d3cb;
+}
+
+/* content with some margin */
+#main{
+	margin: 0% 9%;
+}
+
+/* navbar inside the main id */
+#mynav{
+	border-bottom: 1px solid #d2d3cb;
+}
+
+#mynav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#mynav li{
+	display: inline-block;
+	line-height: 50px;
+	padding: 9px 26px;
+	font-family: 'Roboto Slab', serif;
+}
+
+#mynav li a{
+	text-decoration: none;
+	color: #a09da2;
+}
+
+/* ning img */
+section{
+	padding: 1.3%;	
+	border-bottom: 2px solid #d2d3cb;	
+}
+section img{
+	margin-left: -2%;
+}
+
+/* background image inside content class */
+#bgImg{
+	margin-top: 1px;
+	background-image: url('bg-introduction-full.gif');
+	background-repeat: no-repeat;
+	background-position: bottom 0px right 0px;
+	font-size: 16px;
+	background-color: #e8e9de;
+	font-family: 'Roboto Slab', serif;
+}
+
+/* styling applied to p element of content class */
+.content p{
+	padding: 2.5%;
+	padding-right: 9%;
+	font-size: 2.82em;
+}
+
+/* pseudo class applied */
+.content p::first-letter{
+	font-size: 1.5em;
+}
+
+/* main container for divided content */
+#sub-content{
+	float: left;
+	width: 100%;
+}
+
+#p1::first-letter{
+	font-size: 1.5em;
+}
+
+.mysub h1::first-letter{
+	font-size: 1.5em;
+}
+
+.mysub{
+	width: 44%;
+	float: left;
+	font-family: 'Roboto Slab', serif;
+	padding: 3%;
+	margin-top: 5%;
+	font-size: 20px;
+}
+.mysub h1{
+	margin-top: -0.5%;
+	color: #ae4842;
+	font-family: 'Kumbh Sans', sans-serif;
+	padding-bottom: 2%;
+}
+
+.mysub ul li{
+	list-style: none;
+	padding: 1%;
+	color: #b87c3f;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-style: italic;	
+	font-weight: bolder;
+}
+
+
+/* clients block */
+#clients{
+	border-bottom: 2px solid #d2d3cb; 
+	margin-top: 30%;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+#clients ul{
+	text-align: center;
+	padding: 2%;
+}
+#clients h1{
+	color: #af4131;
+	padding-left: 3%;
+}
+#clients li{
+	display: inline-block;
+	padding: 0 1%;
+}
+#clients li a{
+	text-decoration: none;
+}
+.clients-img{
+	border: 0.5px solid #d2d3cb;
+	height: 82px;
+	width: 224.5px;
+}
+
+/* footer block */
+#footer-nav li{
+display: inline-block;
+padding: 1%;
+font-family: 'Roboto Slab', serif;
+}
+
+/* span class applied to anchor tags */
+.underline{
+	color: #b87c3f;
+}
+span{
+	color: #b1402d;
+}
+
+ .aunderline{
+	color: #d2d3cb;
+
+}
+
