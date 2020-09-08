@@ -232,14 +232,14 @@ span{
 	
 
 	header{
-	
+	background : url('bg.gif');
 	height: 50px;
 	width: auto;
 }
 
 
 #menu-1{
-	left: -150px;
+	left: -190px;
 	}
 
 #menu-2{
@@ -292,7 +292,7 @@ span{
 /* background image inside content class */
 #bgImg{
 	height: 160px;
-	font-size: 8px;
+	font-size: 5px;
 }
 section img{
 	margin-left: -6%;
@@ -305,7 +305,7 @@ section img{
 .clients-img{
 	
 	height: 50px;
-	width: 114px;
+	width: 100px;
 }
 
 #footer-nav li{
